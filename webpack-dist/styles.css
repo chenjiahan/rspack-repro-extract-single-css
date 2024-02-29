@@ -1,0 +1,9 @@
+body {
+  color: blue;
+}
+
+html {
+  color: red;
+}
+
+head{--webpack-rspack-repro-styles:\.\/src\/a\.css,\.\/src\/foo\.css;}

@@ -1,0 +1,30 @@
+/* #region "./src/a.css" */
+/*
+- type: css
+*/
+body {
+  color: blue;
+}
+
+/* #endregion "./src/a.css" */
+
+/* #region "./src/c.css" */
+/*
+- type: css
+*/
+div {
+  color: yellow;
+}
+
+/* #endregion "./src/c.css" */
+
+/* #region "./src/foo.css" */
+/*
+- type: css
+*/
+html {
+  color: red;
+}
+
+/* #endregion "./src/foo.css" */
+

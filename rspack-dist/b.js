@@ -1,6 +1,6 @@
 (function() {
 var __webpack_modules__ = {
-"./src/main.js": (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+"./src/b.js": (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */var _a_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./a.css */"./src/a.css");
@@ -204,7 +204,7 @@ __webpack_require__.g = (function () {
       // object to store loaded and loading chunks
       // undefined = chunk not loaded, null = chunk preloaded/prefetched
       // [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
-      var installedChunks = {"main": 0,};
+      var installedChunks = {"b": 0,};
       
         __webpack_require__.f.j = function (chunkId, promises) {
           // JSONP chunk loading for javascript
@@ -303,7 +303,7 @@ chunkLoadingGlobal.push = webpackJsonpCallback.bind(
 }();
 // webpack/runtime/css_loading
 !function() {
-var installedChunks = {"main": 0,};
+var installedChunks = {"b": 0,};
 var uniqueName = "webpack";
 // loadCssChunkData is unnecessary
 var loadingAttribute = "data-webpack-loading";
@@ -463,6 +463,6 @@ chunkLoadingGlobal.push = loadCssChunkCallback.bind(
     __webpack_require__.p = scriptUrl
     
 }();
-var __webpack_exports__ = __webpack_require__.O(undefined, ["styles"] , function() { return __webpack_require__("./src/main.js") });
+var __webpack_exports__ = __webpack_require__.O(undefined, ["styles"] , function() { return __webpack_require__("./src/b.js") });
 __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })()
